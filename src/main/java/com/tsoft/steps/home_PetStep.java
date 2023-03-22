@@ -40,5 +40,7 @@ public class home_PetStep {
 
     @Then("Valido los owners")
     public void validoLosOwners() {
+        Report.onStep("When", "Valido los owners");
+        if(status) status = hpp.validacionOwners();
     }
 }
