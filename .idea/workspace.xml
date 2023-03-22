@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="254f0b6b-7747-47a0-9b50-b7da0e7e3a60" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mibanco/base/Restful.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mibanco/models/AperturaCuentaModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mibanco/models/CambioClaveModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mibanco/models/ConfigModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mibanco/models/DepositoPlazoFijoModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mibanco/models/LoginModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mibanco/models/PagoPrestamoModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mibanco/models/TransferenciaEntreOtrasCuentasModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mibanco/models/TransferenciasMisCuentasModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mibanco/objects/InticoObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mibanco/objects/home_PetObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mibanco/pages/InticoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mibanco/pages/home_PetPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mibanco/steps/ConfigStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mibanco/steps/home_PetStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mibanco/utility/sqlite3Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/drivers/msedgedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/intico.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fixtures/appMiBancoAndroid.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/base/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mibanco/base/Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/base/Fixtures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mibanco/base/Fixtures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/base/Mobile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/base/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mibanco/base/Report.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/base/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mibanco/base/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/dao/Conexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mibanco/dao/Conexion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/dao/MPI20v2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mibanco/dao/MPI20v2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/helpers/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mibanco/helpers/Hook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/helpers/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mibanco/helpers/Listener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/models/Page1Model.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/models/Page2Model.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/models/Page3Model.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/objects/Page1Objects.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/objects/Page2Objects.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/objects/Page3Objects.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/pages/Page1Page.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/pages/Page2Page.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/pages/Page3Page.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/pages/pagoweb/Page1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/pages/pagoweb/Page2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/pages/pagoweb/Page3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/runner/MPIRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mibanco/runner/RunMiBanco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/runner/PWRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/runner/TokenizarRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/steps/PWSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/steps/TokenizacionSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/utility/ContentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mibanco/utility/ContentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/utility/ExcelHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mibanco/utility/ExcelHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/utility/ExtentReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mibanco/utility/ExtentReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/utility/JsonHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mibanco/utility/JsonHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/utility/KlovReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mibanco/utility/KlovReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/utility/PropertiesFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mibanco/utility/PropertiesFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/utility/StringHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mibanco/utility/StringHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niubiz/utility/WordReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mibanco/utility/WordReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/Tokenizacion.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fixtures/ReporteData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fixtures/ReporteData.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fixtures/data.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/fixtures.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties/fixtures.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/hook.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties/hook.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/report.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties/report.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/settings/html-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/settings/html-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/settings/ng-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/settings/ng-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/template/BackupsTemplate.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/template/PortadaTemplate.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/template/PortadaTemplate.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/template/TestCaseTemplate.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/template/TestCaseTemplate.docx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2NLN9b5toTyYu7xJNbsdxW4lJPY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/dalma/OneDrive/Documentos/Mibanco/v.2/FRAMEWORK_WEB - copia/FRAMEWORK_WEB/mibanco-selenium",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dalma\OneDrive\Documentos\Mibanco\FRAMEWORK_WEB\FRAMEWORK_WEB\mibanco-selenium\src\main\resources\drivers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: Validacion de owners">
+    <configuration name="Scenario: Intico" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/intico.feature" />
+      <option name="GLUE" value="com.mibanco.helpers com.mibanco.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="framework-selenium-test" />
+      <option name="NAME_FILTER" value="^Intico$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Intico$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Intico" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Validacion de owners" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/intico.feature" />
+      <option name="GLUE" value="com.mibanco.helpers com.mibanco.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="framework-selenium-test" />
+      <option name="NAME_FILTER" value="^Validacion de owners$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validacion de owners$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Validacion de owners" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Scenario: Validacion de owners" />
+        <item itemvalue="Cucumber Java.Scenario: Intico" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="254f0b6b-7747-47a0-9b50-b7da0e7e3a60" name="Changes" comment="" />
+      <created>1679439253194</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679439253194</updated>
+    </task>
+    <servers />
+  </component>
+</project>
