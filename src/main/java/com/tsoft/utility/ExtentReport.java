@@ -1,11 +1,11 @@
-package com.mibanco.utility;
+package com.tsoft.utility;
 
 import com.aventstack.extentreports.*;
 import com.aventstack.extentreports.markuputils.Markup;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.ExtentLoggerReporter;
-import com.mibanco.base.Utils;
+import com.tsoft.base.Utils;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.OutputType;

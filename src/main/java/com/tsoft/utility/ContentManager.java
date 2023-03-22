@@ -1,4 +1,4 @@
-package com.mibanco.utility;
+package com.tsoft.utility;
 
 import io.cucumber.java.Scenario;
 import org.apache.http.HttpHeaders;
@@ -8,7 +8,7 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.json.simple.JSONObject;
-import com.mibanco.base.Utils;
+import com.tsoft.base.Utils;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;

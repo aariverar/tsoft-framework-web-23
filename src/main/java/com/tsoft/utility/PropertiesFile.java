@@ -1,4 +1,4 @@
-package com.mibanco.utility;
+package com.tsoft.utility;
 
 import java.io.FileInputStream;
 import java.io.IOException;

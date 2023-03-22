@@ -1,7 +1,7 @@
-package com.mibanco.dao;
+package com.tsoft.dao;
 
-import com.mibanco.base.Report;
-import com.mibanco.base.Utils;
+import com.tsoft.base.Report;
+import com.tsoft.base.Utils;
 import org.json.simple.JSONObject;
 
 import java.sql.PreparedStatement;

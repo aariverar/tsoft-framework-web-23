@@ -1,10 +1,6 @@
-package com.mibanco.helpers;
+package com.tsoft.helpers;
 
-import com.mibanco.utility.PropertiesFile;
-import com.mibanco.utility.sqlite3Manager;
-import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.ios.IOSDriver;
-import io.appium.java_client.remote.MobileCapabilityType;
+import com.tsoft.utility.PropertiesFile;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
@@ -18,26 +14,14 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.ie.InternetExplorerOptions;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.io.IOException;
-import java.net.InetAddress;
 import java.net.URL;
-import java.net.UnknownHostException;
-import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.SQLException;
-import java.sql.Statement;
 import java.time.Duration;
 import java.util.Properties;
 
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-
-import io.cucumber.java.After;
-import io.cucumber.java.Scenario;
-import java.time.Duration;
 import java.time.Instant;
 
 public class Hook {

@@ -1,8 +1,8 @@
-package com.mibanco.base;
+package com.tsoft.base;
 
-import com.mibanco.utility.ExcelHandler;
-import com.mibanco.utility.JsonHandler;
-import com.mibanco.utility.PropertiesFile;
+import com.tsoft.utility.ExcelHandler;
+import com.tsoft.utility.JsonHandler;
+import com.tsoft.utility.PropertiesFile;
 import org.json.simple.JSONObject;
 
 import java.util.List;

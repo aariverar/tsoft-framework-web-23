@@ -10,13 +10,13 @@ import org.testng.annotations.Test;
                 "com.tsoft.steps",
                 "com.tsoft.helpers"
         },
-        tags = "@CP001-PET",
+        tags = "@REG",
         monochrome = true,
         publish = false,
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
 
 @Test
-public class RunMiBanco extends AbstractTestNGCucumberTests { }
+public class Runner extends AbstractTestNGCucumberTests { }
 
 

@@ -1,7 +1,7 @@
-package com.mibanco.utility;
+package com.tsoft.utility;
 
 import java.io.*;
-import com.mibanco.base.Report;
+import com.tsoft.base.Report;
 import io.cucumber.java.Scenario;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -17,7 +17,7 @@ import org.openqa.selenium.WebDriver;
 import org.openxmlformats.schemas.officeDocument.x2006.sharedTypes.STOnOff1;
 import org.openxmlformats.schemas.wordprocessingml.x2006.main.*;
 import java.util.*;
-import static com.mibanco.base.Utils.*;
+import static com.tsoft.base.Utils.*;
 
 public class WordReport {
 

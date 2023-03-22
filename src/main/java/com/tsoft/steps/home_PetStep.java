@@ -1,8 +1,9 @@
-package com.mibanco.steps;
+package com.tsoft.steps;
 
-import com.mibanco.base.Fixtures;
-import com.mibanco.base.Report;
-import com.mibanco.pages.home_PetPage;
+import com.tsoft.base.Fixtures;
+import com.tsoft.base.Report;
+import com.tsoft.pages.home_PetPage;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -40,7 +41,55 @@ public class home_PetStep {
 
     @Then("Valido los owners")
     public void validoLosOwners() {
-        Report.onStep("When", "Valido los owners");
+        Report.onStep("Then", "Valido los owners");
         if(status) status = hpp.validacionOwners();
+    }
+
+    @And("Se realiza la edicion del primer Owner")
+    public void seRealizaLaEdicionDelPrimerOwner() {
+        Report.onStep("And", "Se realiza la edicion del primer Owner");
+        if(status) status = hpp.clickFirstOwner();
+        if(status) status = hpp.clickEditOwner();
+        if(status) status = hpp.editarFormularioOwner();
+
+    }
+
+    @And("Se guardan los cambios validandolos")
+    public void seGuardanLosCambiosValidandolos() {
+        Report.onStep("And", "Se guardan los cambios validandolos");
+        if(status) status = hpp.clickUpdateOwner();
+        if(status) status = hpp.validacionNewUser();
+    }
+
+    @Then("Se realiza el rollback con la información anterior")
+    public void seRealizaElRollbackConLaInformaciónAnterior() {
+        Report.onStep("Then", "Se realiza el rollback con la información anterior");
+        if(status) status = hpp.clickEditOwner();
+        if(status) status = hpp.rollBackFormulario();
+        if(status) status = hpp.clickUpdateOwner();
+    }
+
+    @Then("Verifico el ingreso a HOME")
+    public void verificoElIngresoAHOME() {
+        Report.onStep("Then", "Verifico el ingreso a HOME");
+        if(status) status = hpp.clickMenuHome();
+    }
+
+    @And("Verifico el ingreso a FIND OWNERS")
+    public void verificoElIngresoAFINDOWNERS() {
+        Report.onStep("And", "Verifico el ingreso a FIND OWNERS");
+        if(status) status = hpp.clickMenuFindOwner();
+    }
+
+    @And("Verifico el ingreso a VETERINARIANS")
+    public void verificoElIngresoAVETERINARIANS() {
+        Report.onStep("And", "Verifico el ingreso a VETERINARIANS");
+        if(status) status = hpp.clickMenuVeterinarians();
+    }
+
+    @And("Verifico el ingreso a ERROR")
+    public void verificoElIngresoAERROR() {
+        Report.onStep("And", "Verifico el ingreso a ERROR");
+        if(status) status = hpp.clickMenuError();
     }
 }

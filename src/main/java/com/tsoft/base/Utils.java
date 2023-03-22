@@ -1,4 +1,4 @@
-package com.mibanco.base;
+package com.tsoft.base;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

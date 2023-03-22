@@ -1,4 +1,4 @@
-package com.mibanco.base;
+package com.tsoft.base;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;

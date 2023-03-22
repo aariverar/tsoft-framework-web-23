@@ -5,11 +5,11 @@
     <!-- Test Started... -->
     <test name="Automation Test Report">
         <classes>
-            <class name="com.mibanco.runner.RunMiBanco"/>
+            <class name="com.tsoft.runner.Runner"/>
         </classes>
     </test>
     <!-- Listners implemented in below location -->
     <!--listeners>
-        <listener class-name="com.mibanco.helpers.ListenerOld"/>
+        <listener class-name="com.tsoft.helpers.ListenerOld"/>
     </listeners-->
 </suite>

@@ -1,4 +1,4 @@
-package com.mibanco.models;
+package com.tsoft.models;
 
 public class PagoPrestamoModel {
     public String Usuario = "Usuario6";

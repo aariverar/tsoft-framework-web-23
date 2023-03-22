@@ -1,7 +1,7 @@
-package com.mibanco.dao;
+package com.tsoft.dao;
 
-import com.mibanco.base.Utils;
-import com.mibanco.utility.PropertiesFile;
+import com.tsoft.base.Utils;
+import com.tsoft.utility.PropertiesFile;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

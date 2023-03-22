@@ -1,9 +1,9 @@
-package com.mibanco.helpers;
+package com.tsoft.helpers;
 
-import com.mibanco.base.Report;
-import com.mibanco.base.Utils;
-import com.mibanco.utility.ContentManager;
-import com.mibanco.utility.WordReport;
+import com.tsoft.base.Report;
+import com.tsoft.base.Utils;
+import com.tsoft.utility.ContentManager;
+import com.tsoft.utility.WordReport;
 import io.cucumber.java.*;
 
 public class Listener {

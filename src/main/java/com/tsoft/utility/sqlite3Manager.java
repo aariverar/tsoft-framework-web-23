@@ -1,4 +1,4 @@
-package com.mibanco.utility;
+package com.tsoft.utility;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

@@ -24,7 +24,7 @@
         <documentTitle>Reporte de Automatizacion</documentTitle>
 
         <!-- report name - displayed at top-nav -->
-        <reportName>Entidad : Mi Banco</reportName>
+        <reportName>Entidad : TSOFT</reportName>
 
         <!-- global date format override -->  <!-- defaults to yyyy-MM-dd -->
         <dateFormat>yyyy-MM-dd</dateFormat>

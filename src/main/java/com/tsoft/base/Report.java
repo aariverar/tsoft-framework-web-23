@@ -1,10 +1,10 @@
-package com.mibanco.base;
+package com.tsoft.base;
 
-import com.mibanco.helpers.Listener;
-import com.mibanco.utility.ExcelHandler;
-import com.mibanco.utility.ExtentReport;
-import com.mibanco.utility.PropertiesFile;
-import com.mibanco.utility.WordReport;
+import com.tsoft.helpers.Listener;
+import com.tsoft.utility.ExcelHandler;
+import com.tsoft.utility.ExtentReport;
+import com.tsoft.utility.PropertiesFile;
+import com.tsoft.utility.WordReport;
 import org.json.simple.JSONObject;
 import org.openqa.selenium.WebDriver;
 

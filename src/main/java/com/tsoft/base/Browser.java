@@ -1,6 +1,6 @@
-package com.mibanco.base;
+package com.tsoft.base;
 
-import com.mibanco.helpers.Hook;
+import com.tsoft.helpers.Hook;
 import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.Select;
