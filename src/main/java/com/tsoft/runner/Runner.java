@@ -10,13 +10,19 @@ import org.testng.annotations.Test;
                 "com.tsoft.steps",
                 "com.tsoft.helpers"
         },
-        tags = "@REG",
+        tags = "@CP001-PET",
         monochrome = true,
         publish = false,
-        snippets = CucumberOptions.SnippetType.CAMELCASE
-)
+        snippets = CucumberOptions.SnippetType.CAMELCASE,
+        plugin = {
+                "json:target/cucumber.json",
+                "junit:target/cucumber-junit-report.xml"
+        }
 
+)
 @Test
-public class Runner extends AbstractTestNGCucumberTests { }
+public class Runner extends AbstractTestNGCucumberTests {
+
+}
 
 

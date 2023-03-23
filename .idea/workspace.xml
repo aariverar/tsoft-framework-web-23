@@ -5,49 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="254f0b6b-7747-47a0-9b50-b7da0e7e3a60" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/utility/CucumberReports.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/base/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/base/Browser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/base/Fixtures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/base/Fixtures.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/base/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/base/Report.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/base/Restful.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/base/Restful.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/base/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/base/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/dao/Conexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/dao/Conexion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/dao/MPI20v2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/dao/MPI20v2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/helpers/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/helpers/Hook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/helpers/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/helpers/Listener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/models/AperturaCuentaModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/models/AperturaCuentaModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/models/CambioClaveModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/models/CambioClaveModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/models/ConfigModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/models/ConfigModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/models/DepositoPlazoFijoModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/models/DepositoPlazoFijoModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/models/LoginModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/models/LoginModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/models/PagoPrestamoModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/models/PagoPrestamoModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/models/TransferenciaEntreOtrasCuentasModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/models/TransferenciaEntreOtrasCuentasModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/models/TransferenciasMisCuentasModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/models/TransferenciasMisCuentasModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/objects/InticoObjects.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/objects/home_PetObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/objects/home_PetObjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/pages/InticoPage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/pages/home_PetPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/pages/home_PetPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/runner/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/steps/ConfigStep.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/steps/home_PetStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/steps/home_PetStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/utility/ContentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/utility/ContentManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/utility/ExcelHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/utility/ExcelHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/utility/ExtentReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/utility/ExtentReport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/utility/JsonHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/utility/JsonHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/utility/KlovReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/utility/KlovReport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/utility/PropertiesFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/utility/PropertiesFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/utility/StringHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/utility/StringHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/utility/WordReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/utility/WordReport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsoft/utility/sqlite3Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsoft/utility/sqlite3Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/Pet-Clinic.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/Pet-Clinic.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fixtures/ReporteData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fixtures/ReporteData.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fixtures/appMiBancoAndroid.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fixtures/appMiBancoAndroid.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/hook.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties/hook.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/report.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties/report.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/settings/html-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/settings/html-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/settings/ng-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/settings/ng-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/template/PortadaTemplate.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/template/PortadaTemplate.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/template/TestCaseTemplate.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/template/TestCaseTemplate.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,14 +46,28 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../MI_BANCO/KARATE/karate.mibanco/karate.mibanco" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\TSOFT ASIGNACIONES\PROYECTO XRAY\REPOSITORIO\tsoft-framework-web-23\src\main\java\com\tsoft\utility" />
       <recent name="C:\Users\dalma\OneDrive\Documentos\Mibanco\FRAMEWORK_WEB\FRAMEWORK_WEB\mibanco-selenium\src\main\resources\drivers" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.Runner">
+    <configuration name="CucumberReports" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tsoft.utility.CucumberReports" />
+      <module name="tsoft-framework-web-23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tsoft.utility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: CP001 - &lt;descripcion&gt;" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/Pet-Clinic.feature" />
@@ -151,26 +128,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Validacion de owners (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/Pet-Clinic.feature" />
-      <option name="GLUE" value="com.mibanco.helpers com.mibanco.steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="tsoft-framework-web-23" />
-      <option name="NAME_FILTER" value="^Validacion de owners$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validacion de owners$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Validacion de owners" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Runner" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="tsoft-framework-web-23" />
       <extension name="coverage">
@@ -191,10 +148,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.Runner" />
+        <item itemvalue="Application.CucumberReports" />
         <item itemvalue="Cucumber Java.Scenario: CP003 - &lt;descripcion&gt;" />
         <item itemvalue="Cucumber Java.Scenario: CP001 - &lt;descripcion&gt;" />
         <item itemvalue="Cucumber Java.Scenario: CP002 - &lt;descripcion&gt;" />
-        <item itemvalue="Cucumber Java.Scenario: Validacion de owners (1)" />
       </list>
     </recent_temporary>
   </component>

@@ -5,6 +5,7 @@ import com.tsoft.base.Report;
 import com.tsoft.base.Utils;
 import com.tsoft.objects.home_PetObjects;
 import org.junit.Assert;
+import org.junit.ComparisonFailure;
 
 public class home_PetPage extends Browser {
     private home_PetObjects hp = new home_PetObjects();
@@ -67,7 +68,7 @@ public class home_PetPage extends Browser {
         String step = "Se verifican los 10 owners.";
         Utils.println(step);
         try {
-            String expectedName1 = "George Franklin";
+            String expectedName1 = "Abraham Rivera";
             Assert.assertEquals(getText(hp.val_name1), expectedName1);
             String expectedName2 = "Betty Davis";
             Assert.assertEquals(getText(hp.val_name2), expectedName2);
@@ -90,10 +91,11 @@ public class home_PetPage extends Browser {
 
             Report.onPass(driver, step+" correctamente.");
             response = true;
-        }catch (AssertionError ae) {
+        }catch (ComparisonFailure ae) {
             Report.onFail(null, "Error : [ Step : " + step + " ] : " + ae.getMessage());
             driver.navigate().refresh();
             driver.close();
+            throw new AssertionError(ae.getMessage(), ae);
         }
         catch (Exception t) {
             Report.onFail(null, "Error : [ Step : "+step+" ] : " +  t.getMessage());

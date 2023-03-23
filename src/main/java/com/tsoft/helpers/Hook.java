@@ -225,6 +225,8 @@ public class Hook {
         System.out.println("Hostname: " + hostname);
     }*/
 
+
+
     public static WebDriver getDriver() { return driver; }
     //public static AndroidDriver getAppiumDriver() { return appiumDriver; }
 }
