@@ -1,6 +1,6 @@
 Feature: Automatizacion web PET-CLINIC
 
-  @CP001-PET @REG
+  @TEST_XRAY-6
   Scenario Outline: CP001 - <descripcion>
 
     Given   Se ingresa a la web de PET CLINIC <caso_prueba>, "<sheet>"
