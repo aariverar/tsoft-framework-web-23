@@ -11,7 +11,7 @@ Feature: Automatizacion web PET-CLINIC
       | caso_prueba | sheet | descripcion                           |
       | 1           | Login | Validar los nombres de los 10 owners. |
 
-  @CP002-PET @REG
+  @TEST_XRAY-19
   Scenario Outline: CP002 - <descripcion>
 
     Given   Se ingresa a la web de PET CLINIC <caso_prueba>, "<sheet>"
