@@ -68,7 +68,7 @@ public class home_PetPage extends Browser {
         String step = "Se verifican los 10 owners.";
         Utils.println(step);
         try {
-            String expectedName1 = "Abraham Rivera";
+            String expectedName1 = "George Franklin";
             Assert.assertEquals(getText(hp.val_name1), expectedName1);
             String expectedName2 = "Betty Davis";
             Assert.assertEquals(getText(hp.val_name2), expectedName2);
