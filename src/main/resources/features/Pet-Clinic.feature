@@ -1,6 +1,6 @@
 Feature: Automatizacion web PET-CLINIC
 
-  @TEST_XRAY-6
+  @XRAY-21 @TEST_XRAY-6
   Scenario Outline: CP001 - <descripcion>
 
     Given   Se ingresa a la web de PET CLINIC <caso_prueba>, "<sheet>"
@@ -11,7 +11,7 @@ Feature: Automatizacion web PET-CLINIC
       | caso_prueba | sheet | descripcion                           |
       | 1           | Login | Validar los nombres de los 10 owners. |
 
-  @TEST_XRAY-19
+  @XRAY-21 @TEST_XRAY-19
   Scenario Outline: CP002 - <descripcion>
 
     Given   Se ingresa a la web de PET CLINIC <caso_prueba>, "<sheet>"
