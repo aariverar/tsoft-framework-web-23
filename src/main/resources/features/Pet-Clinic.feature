@@ -24,7 +24,7 @@ Feature: Automatizacion web PET-CLINIC
       | caso_prueba | sheet | descripcion                                                              |
       | 2           | Login | Editar del primer Owner de la lista, validar el cambio y hacer rollback. |
 
-  @CP003-PET @REG
+  @TEST_XRAY-48
   Scenario Outline: CP003 - <descripcion>
 
     Given   Se ingresa a la web de PET CLINIC <caso_prueba>, "<sheet>"
